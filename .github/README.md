@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-xray`](https://www.npmjs.com/package/@aws-sdk/client-xray/v/3.128.0).
+[`@aws-sdk/client-xray`](https://www.npmjs.com/package/@aws-sdk/client-xray/v/3.130.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-xray@3.128.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-xray@3.130.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-fzAR/PaL6ERdZe8ul504CR6GGnmSVb/T64wswZsk3TxlIj3ryy38nQzMbSGVK6nD
+sha384-3Ox63AWL50+ZAHdv9ywsHXeX/yon3K9+plHCd+XFvB1dHeAlCe1nEp7OqtkZlXjn
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-xray": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-xray@3.128.0/index.min.mjs"
+            "@aws-sdk/client-xray": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-xray@3.130.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-xray@3.128.0/index.min.mjs": "sha384-fzAR/PaL6ERdZe8ul504CR6GGnmSVb/T64wswZsk3TxlIj3ryy38nQzMbSGVK6nD"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-xray@3.130.0/index.min.mjs": "sha384-3Ox63AWL50+ZAHdv9ywsHXeX/yon3K9+plHCd+XFvB1dHeAlCe1nEp7OqtkZlXjn"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-xray": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-xray@3.128.0/index.min.mjs"
+                        "@aws-sdk/client-xray": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-xray@3.130.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-xray@3.128.0/index.min.mjs": "sha384-fzAR/PaL6ERdZe8ul504CR6GGnmSVb/T64wswZsk3TxlIj3ryy38nQzMbSGVK6nD"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-xray@3.130.0/index.min.mjs": "sha384-3Ox63AWL50+ZAHdv9ywsHXeX/yon3K9+plHCd+XFvB1dHeAlCe1nEp7OqtkZlXjn"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.128.0`)
+* Always pin to a specific version (`@3.130.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-xray/blob/refs/tags/3.128.0/LICENSE
+https://github.com/cloud-sdk-builds/client-xray/blob/refs/tags/3.130.0/LICENSE
 ```
 
 ---
